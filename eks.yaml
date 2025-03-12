@@ -6,9 +6,9 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-- name: expense 
-  instanceTypes: m5.large 
-  desiredCapacity: 3
-  spot: true
- # availabilityZones:
- # - us-east-1f
+  - name: expense
+    instanceType: m5.large
+    desiredCapacity: 3
+    spot: true
+    # availabilityZones:
+    # - us-east-1f
